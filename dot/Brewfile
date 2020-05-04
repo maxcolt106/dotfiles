@@ -1,3 +1,143 @@
-# Here ya go!
+tap 'homebrew/cask-versions'
+
+
+# brew 'ack' # Search tool like grep, but optimized for programmers
+brew 'ag' # Code-search similar to ack
+brew 'aspell' # Spell checker with better logic than ispell
+brew 'bat' # Clone of cat(1) with syntax highlighting and Git integration
+# brew 'cocoapods' # Dependency manager for Cocoa projects
+brew 'colordiff' # Color-highlighted diff(1) output
+brew 'colormake' # Wrapper around make to colorize the output
+brew 'colortail' # Like tail(1), but with various colors for specified output
+brew 'dnsmasq' # Lightweight DNS forwarder and DHCP server - supports wildcards
+brew 'docker' # Pack, ship and run any application as a lightweight container
+brew 'docker-compose' # Isolated development environments using Docker
+brew 'fasd' # CLI tool for quick access to files and directories
+brew 'ffmpeg' # Play, record, convert, and stream audio and video
+brew 'fortune' # Infamous electronic fortune-cookie generator
+brew 'git' # Distributed revision control system
+brew 'git-lfs' # Git extension for versioning large files
+# brew 'global' # Source code tag system [emacs related]
+brew 'gnupg' # GNU Pretty Good Privacy (PGP) package
+brew 'graphviz' # Graph visualization software from AT&T and Bell Labs
+brew 'grep' # GNU grep, egrep and fgrep
+brew 'htop' # Improved top (interactive process viewer)
+brew 'imagemagick' # Tools and libraries to manipulate images in many formats
+brew 'jansson' # C library for encoding, decoding, and manipulating JSON
+brew 'jenv' # Manage your Java environment
+# brew 'kubernetes-cli' # Kubernetes command-line interface
+brew 'mas' # Mac App Store command-line interface
+brew 'nodenv' # Manage multiple NodeJS versions
+brew 'node-build' # Install NodeJS versions (NOTE: this isn't a dep of nodenv?)
+brew 'openssl' # Cryptography and SSL/TLS Toolkit
+brew 'p7zip' # 7-Zip (high compression file archiver) implementation
+brew 'pandoc' # Swiss-army knife of markup format conversion TODO: Look into this tool more
+brew 'postgresql' # Object-relational database system
+brew 'pyenv' # Python version management
+brew 'rbenv' # Ruby version manager
+brew 'rbenv-default-gems' # Auto-installs gems for Ruby installs
+brew 'redis' # Persistent key-value database, with built-in net interface
+brew 'ruby-build' # Explicitly dependency of rbenv (installs different versions of ruby)
+brew 'sox' # SOund eXchange: universal sound sample translator
+brew 'sqlite' # Command-line interface for SQLite
+brew 'telnet' # User interface to the TELNET protocol
+brew 'terminal-notifier' # Send macOS User Notifications from the command-line
+brew 'tree' # Display directories as trees (with optional color/HTML output)
+brew 'unrar' # Extract, view, and test RAR archives
+brew 'watchman' # Watch files and take action when they change
+brew 'wget' # Internet file retriever
+brew 'wrk' # HTTP benchmarking tool TODO: Look into this tool more
+brew 'youtube-dl' # Download YouTube videos from the command-line
+brew 'zlib' # General-purpose lossless data-compression library
+brew 'zsh' # UNIX shell (command interpreter)
+
+
+# cask 'arduino'
+cask 'arq' # Backup computer to the cloud
+cask 'atom' # Best text editor ever, much better than vim, emac, and especially space-macs
+# cask 'audiobookbinder' # Convert all your mp3 books to iPod-compatible m4b format
+cask 'beamer' # Stream directly from your Mac to Apple TV and Chromecast
+cask 'brave-browser'
+cask 'cheatsheet' # Hold the ⌘-Key a bit longer to get a list of all active short cuts of the current application
+cask 'chromedriver'
+cask 'dash'
+cask 'docker'
+cask 'discord'
+cask 'expressvpn' # Secure Mac VPN client
+cask 'firefox'
+cask 'firefox-developer-edition'
+cask 'fsmonitor' # Monitor all changes in the file system
+cask 'github'
+cask 'google-chrome'
+cask 'google-chrome-canary'
+cask 'grandperspective' # Graphically show disk usage
+cask 'hammerspoon' # New Slate but with even more features and functions
+cask 'id3-editor' # Small and simple MP3 and AIFF ID3 tag editor
+cask 'insomnia' # Design and debug APIs like a human, not a robot
+# cask 'intel-power-gadget' # Software-based power usage monitoring tool for Intel® Core™ processors
+cask 'iterm2'
+# cask 'java' # We will install with jenv instead, and only install system java if required later on
+cask 'phantomjs'
+cask 'safari-technology-preview'
+cask 'sketch' # Sketch 2 is already out, will this one work?
+cask 'skype'
+cask 'slack'
+cask 'spotify'
+cask 'qobuz'
+cask 'tor-browser'
+cask 'transmission'
+cask 'virtualbox'
+cask 'vlc'
+cask 'webtorrent' # Streaming torrent app
+cask 'zeplin'
+cask 'zoomus'
+
+# Specific taps
 #
-# brew 'zsh'
+# tap 'thoughtbot/formulae'
+# brew 'rcm' # RC file (dotfile) management: https://thoughtbot.github.io/rcm/rcm.7.html
+# consider using only if taking a very similar approach to mkcode dotfiles
+
+# tap 'd12frosted/emacs-plus'
+# brew 'emacs-plus'
+
+tap 'heroku/brew'
+brew 'heroku'
+
+tap 'mongodb/brew'
+brew 'mongodb-community-compass'
+
+# OpenJDK 8 for use with android-studio
+# tap 'AdoptopenJDK/openjdk'
+# cask 'adoptopenjdk8'
+
+# Homebrew Fonts
+tap 'caskroom/fonts'
+cask 'font-source-code-pro'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-fantasque-sans-mono'
+
+# Mac App Store
+#
+# `mas list`
+#
+
+# mas 'Agenda', id: 1287445660 # Note taking program
+mas '1Password', id: 443987910
+mas 'Browser Ninja', id: 995838410 # Painlessly switch your default browser
+mas 'Evernote', id: 406056744
+mas 'GarageBand', id: 682658836
+mas 'iMovie', id: 408981434
+mas 'iStat Menus', id: 1319778037
+mas 'Keynote', id: 409183694
+mas 'Markdown Pro', id: 465965038
+mas 'Monosnap', id: 540348655
+mas 'Numbers', id: 409203825
+mas 'OmniFocus', id: 867299399
+mas 'Pages', id: 409201541
+mas 'SiteSucker', id: 442168834
+# mas 'SQLPro Studio', id: 985614903
+mas 'The Unarchiver', id: 425424353
+mas 'Transmit', id: 403388562
+mas 'Wallpaperer', id: 1102248738
+mas 'Xcode', id: 497799835

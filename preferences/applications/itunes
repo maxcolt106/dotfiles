@@ -1,0 +1,9 @@
+# Not needed anymore, right?
+
+# #!/bin/zsh
+# set -e
+#
+# # Disable keyboard media keys
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+#
+# echo 'Configured iTunes preferences'

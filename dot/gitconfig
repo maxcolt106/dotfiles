@@ -1,0 +1,30 @@
+[alias]
+	co = checkout
+  branch-name = rev-parse --abbrev-ref HEAD
+	gp = git push
+	gc = git commit -m
+	ga = git add
+	gst = git status
+  pub = !git push -u origin $(git branch-name)
+  password = !reset-github-password
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[core]
+  autocrlf = input
+  editor = atom --wait
+  excludesfile = ~/.gitignore
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[github]
+	user = mfrwdesign
+[push]
+	default = simple
+[rerere]
+	enabled = true
+[user]
+  email = thomas@mfrwdesign.com
+  name = Thomas Sample

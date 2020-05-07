@@ -188,11 +188,11 @@ brew 'heroku'
 # tap 'AdoptopenJDK/openjdk'
 # cask 'adoptopenjdk8'
 
-# Homebrew Fonts
-tap 'homebrew/cask-fonts'
-cask 'font-source-code-pro'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-fantasque-sans-mono'
+# # Homebrew Fonts
+# tap 'homebrew/cask-fonts'
+# cask 'font-source-code-pro'
+# cask 'font-source-code-pro-for-powerline'
+# cask 'font-fantasque-sans-mono'
 
 # Mac App Store
 #

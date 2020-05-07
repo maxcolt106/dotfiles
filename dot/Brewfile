@@ -189,7 +189,7 @@ brew 'mongodb-community-compass'
 # cask 'adoptopenjdk8'
 
 # Homebrew Fonts
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 cask 'font-source-code-pro'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-fantasque-sans-mono'

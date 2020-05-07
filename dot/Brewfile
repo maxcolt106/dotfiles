@@ -99,7 +99,7 @@ cask 'airflow' # Watch local content on Apple TV and Chromecast. VS beamer?
 cask 'arq' # Backup computer to the cloud
 # cask 'astropad' # turn your iPad into a professional drawing tablet
 cask 'atext' # aText accelerates your typing in any app by replacing abbreviations w/ freq used phrases you define. vs textexpander ?
-cask 'atom' # Best text editor ever, much better than vim, emac, and especially space-macs
+# cask 'atom' # Best text editor ever, much better than vim, emac, and especially space-macs # Install manually
 # cask 'audiobookbinder' # Convert all your mp3 books to iPod-compatible m4b format
 # cask 'audioscrobbler' # Minimal, robust iTunes scrobbling (for Last.fm)
 # cask 'barrier' # Open-source KVM software
@@ -203,7 +203,7 @@ cask 'font-fantasque-sans-mono'
 mas '1Password 7', id: 1333542190
 # mas 'Affinity Designer', id: 824171161 # Alternate program to Illustrator
 # mas 'Affinity Photo', id: 824183456 # Alternate program to Photoshop
-mas 'Amphetamine', id: 937984704 # is this better than Caffine? Or perhaps Caffine isn't support in Mojave and above?
+# mas 'Amphetamine', id: 937984704 # is this better than Caffine? Or perhaps Caffine isn't support in Mojave and above?
 mas 'Bear', id: 1091189122 # Private Markdown Notes
 mas 'Browser Ninja', id: 995838410 # Painlessly switch your default browser
 mas 'Clocks', id: 414554506 # World Clocks Menubar app
@@ -214,7 +214,7 @@ mas 'iMovie', id: 408981434
 # mas 'iStat Menus', id: 1319778037 # installed as a cask instead
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
-mas 'Mail Notifr', id: 808154494 # Simple mail notifier for Gmail
+# mas 'Mail Notifr', id: 808154494 # Simple mail notifier for Gmail
 mas 'Markdown Pro', id: 465965038
 mas 'Monosnap', id: 540348655
 mas 'Numbers', id: 409203825
@@ -222,12 +222,12 @@ mas 'OmniFocus', id: 867299399
 mas 'Orangered Notifier', id: 468366517 # Put reddit alerts in your menu bar
 # mas 'Padlock', id: 415667090 # `mas info 415667090` results in "No results found - Error: No results found"
 mas 'Pages', id: 409201541
-mas 'Pixelmator', id: 407963104 # Full-featured image editor allows edits to photoshop files
+# mas 'Pixelmator', id: 407963104 # Full-featured image editor allows edits to photoshop files
 mas 'SiteSucker', id: 442168834
 mas 'Speedtest', id: 1153157709 # Simple Speedtest by Ookla
 # mas 'SQLPro Studio', id: 985614903 # Part of Setapp
 mas 'The Unarchiver', id: 425424353
 mas 'Transmit', id: 403388562
 mas 'Wallpaperer', id: 1102248738
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835 # Install manually because it's such a large file
 mas 'Yoink', id: 457622435 # Improved drag & drop with clipboard functionality

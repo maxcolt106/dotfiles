@@ -20,11 +20,11 @@
 	smudge = git lfs smudge %f
 	required = true
 [github]
-	user = mfrwdesign
+	user = maxcolt106
 [push]
 	default = simple
 [rerere]
 	enabled = true
 [user]
-  email = thomas@mfrwdesign.com
-  name = Thomas Sample
+  email = max@karmacreative.io
+  name = Max Colt

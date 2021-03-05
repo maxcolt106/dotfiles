@@ -139,7 +139,7 @@ cask 'iterm2' # Is it Hyper OR iTerm2? What do you think?
 cask 'itsycal' # Tiny menu bar calendar. -Is this better than the iStats one?
 # cask 'java' # We will install with jenv instead, and only install system java if required later on
 cask 'karabiner-elements' # A powerful and stable keyboard customizer -- Instead of Hammerspoon?
-cask 'knox' # 1Password's file valut program
+# cask 'knox' # 1Password's file valut program
 # cask 'launchbar' # quick launch programs
 # cask 'lingo' # The visual home for your brand; Create and share living style guides, asset libraries and more
 cask 'mojibar' # A menubar app adaptation of Emoji searcher.
@@ -180,7 +180,7 @@ cask 'zoomus'
 
 tap 'heroku/brew'
 brew 'heroku'
- 
+
 # tap 'mongodb/brew'
 # brew 'mongodb-community-compass'
 
@@ -200,7 +200,7 @@ brew 'heroku'
 #
 
 # mas 'Agenda', id: 1287445660 # Note taking program
-mas '1Password 7', id: 1333542190
+# mas '1Password 7', id: 1333542190
 # mas 'Affinity Designer', id: 824171161 # Alternate program to Illustrator
 # mas 'Affinity Photo', id: 824183456 # Alternate program to Photoshop
 # mas 'Amphetamine', id: 937984704 # is this better than Caffine? Or perhaps Caffine isn't support in Mojave and above?
@@ -218,8 +218,8 @@ mas 'Kindle', id: 405399194
 mas 'Markdown Pro', id: 465965038
 mas 'Monosnap', id: 540348655
 mas 'Numbers', id: 409203825
-mas 'OmniFocus', id: 867299399
-mas 'Orangered Notifier', id: 468366517 # Put reddit alerts in your menu bar
+# mas 'OmniFocus', id: 867299399
+# mas 'Orangered Notifier', id: 468366517 # Put reddit alerts in your menu bar
 # mas 'Padlock', id: 415667090 # `mas info 415667090` results in "No results found - Error: No results found"
 mas 'Pages', id: 409201541
 # mas 'Pixelmator', id: 407963104 # Full-featured image editor allows edits to photoshop files
@@ -230,4 +230,4 @@ mas 'The Unarchiver', id: 425424353
 mas 'Transmit', id: 403388562
 mas 'Wallpaperer', id: 1102248738
 # mas 'Xcode', id: 497799835 # Install manually because it's such a large file
-mas 'Yoink', id: 457622435 # Improved drag & drop with clipboard functionality
+# mas 'Yoink', id: 457622435 # Improved drag & drop with clipboard functionality
